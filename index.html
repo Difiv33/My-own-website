@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="nav">
+    <h1 class="title">Alexander Öberg</h1>
+    <ul class="menu">
+      <li><a class="startActive" href="#nav">Start</a></li>
+      <li><a class="startProjects" href="#myProjects">My Projects</a></li>
+      <li><a class="startContact" href="#contact">My contact info</a></li>
+    </ul>
+  </div>
+  <header>
+    <h2>About me</h2>
+  </header>
+
+  <!--The main content begins here-->
+  <main>
+
+    <!--Section about me begins here-->
+    <section id="introduction">
+      <div class="author">
+        <img id="author" src="images/author.jpg" alt="Author" />
+      </div>
+      <div class="authorText">
+        <h3>Who I am</h3>
+        <p>I'm a 29-year-old tech enthusiast named Alexander Öberg with a genuine passion for programming and everything that comes with it. Over the past three years, I've built my career in IT, gaining hands-on experience and steadily growing my skills along the way. What started as curiosity has turned into something I truly enjoy doing every day, whether I'm solving problems at work or exploring new tools and ideas in my spare time. I live in Lund with my wife and our dog, who make sure I step away from the screen now and then. For me, a good life is about balancing technology, learning, and time with family.</p>
+      </div>
+      <div class="computers">
+        <img id="computerPicture" src="images/computers.jpg" alt="Author" />
+      </div>
+    </section>
+
+    <hr class="section1To2">
+
+    <!--Section displaying my projects begin here-->
+    <section id="myProjects">
+      <h2>My projects</h2>
+      <h3>Down below are pictures representing all my projects, click the pictures or GitHub to visit the projects on <a href="https://github.com/Difiv33" target="_blank">GitHub!</a></h3>
+      <div class="myProjectsLinks">
+        <div class="project">
+          <h4>Project 1</h4>
+          <a href="https://github.com/Difiv33/Assignment1" target="_blank">
+            <img id="project1" src="images/project1.jpg" alt="Picture of project 1 with embedded link">
+          </a>
+        </div>
+
+        <div class="project">
+          <h4>Project 2</h4>
+          <a href="https://github.com/Difiv33/Assignment2" target="_blank">
+            <img id="project2" src="images/project2.jpg" alt="Picture of project 2 with embedded link">
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section1To2">
+
+    <!--Section displaying my contact info begins here-->
+    <section id="contact">
+      <h2>My Contact info</h2>
+      <div id="contactInfo">
+        <!--Identifiers for contact grid layout-->
+        <p id="contactIDName">My name:</p>
+        <p id="contactIDMail">My email:</p>
+        <p id="contactIDPhone">My Phone number:</p>
+        <p id="contactIDLocation">My location:</p>
+        <!--Identifiers for rows-->
+        <div class="rowLine" style="grid-row: 1;"></div>
+        <div class="rowLine" style="grid-row: 2;"></div>
+        <div class="rowLine" style="grid-row: 3;"></div>
+        <div class="rowLine" style="grid-row: 4;"></div>
+        <!--Identifiers for contact grid layout(answers)-->
+        <p id="contactIDNameAnswer">Alexander Öberg</p>
+        <p id="contactIDMailAnswer">Alexander@kopmanholmen.se</p>
+        <p id="contactIDPhoneAnswer">0761-61 43 10</p>
+        <p id="contactIDLocationAnswer">Lund, SE</p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer1">
+      <h3>Made by</h3>
+      <div class="footertext">
+        <p>Alexander Öberg Copyright 2026 &copy;</p>
+      </div>
+    </section>
+  </footer>
+
+</body>
+
+</html>
